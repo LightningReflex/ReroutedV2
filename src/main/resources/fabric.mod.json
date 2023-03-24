@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "rerouted-v2",
+  "version": "${version}",
+  "name": "Rerouted",
+  "description": "Uh I am not running a custom jar on Minehut here. Nope!",
+  "authors": [
+    "LightningReflex"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ReroutedV2/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "me.lightningreflex.reroutedv2.client.ReroutedClient"
+    ],
+    "main": [
+      "me.lightningreflex.reroutedv2.Rerouted"
+    ]
+  },
+  "mixins": [
+    "ReroutedV2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "minecraft": "1.17.1"
+  }
+}

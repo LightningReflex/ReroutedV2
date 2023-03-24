@@ -1,0 +1,16 @@
+# Made my LightningReflex#9999 <3
+# https://github.com/LightningReflex/ReroutedV2
+
+# Whether to use custom startup parameters for
+# the server. If this is set to false, the server will
+# use the default parameters which were used for the
+# fabric server jar.
+useCustomParameters: false
+customParameters: -Xmx2G
+
+# Delete unnecessary files after the server has been
+# started. This will delete the files in the root
+# directory of the server. the rerouted (main server)
+# directory along with other important files will
+# remain untouched.
+deleteUnnecessaryFiles: true

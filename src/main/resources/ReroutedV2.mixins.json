@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.lightningreflex.reroutedv2.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MainMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
